@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background: black;
+	font-family: sans-serif;
+}
+
+.form-login {
+	width        : 350px;
+	height       : 400px;
+	background   : pink;
+	border-radius: 5px;
+	margin       : 100px auto;
+	padding      : 20px;
+}
+
+.form-login input {
+	width: 100%;
+	border: none;
+	padding: 20px;
+	border-bottom: 2px solid black;
+	margin: 15px 0 10px 0;
+}
+
+.form-login input[type="submit"] {
+	background   : #FF1493;
+	border-bottom: 2px solid black; 
+}
+
+.form-login input[type="submit"]:active {
+	border-bottom: 0 solid pink; 
+}
+
+/*SOCIAL*/
+
+.social {
+	position     : relative;
+    width        : 940px;
+    background   : black;
+    border-radius: 5px;
+	margin       : 50px auto;
+	min-height   : 500px;
+	text-align   : center;
+	padding: 50px;
+	background: pink;
+}
+
+.social .sair {
+	background : none;
+	border     : none;
+	width      : 48px;
+	height     : 48px;
+	position   : absolute;
+	right      : -20px;
+	top        : -20px;
+	text-indent: 999px;
+}
+
+
+#logout_butt {
+	margin-left: 50%;
+}
